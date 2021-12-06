@@ -1,0 +1,45 @@
+
+/**
+* Local variables
+*/
+@import './variables';
+
+.side-nav {
+
+    display: flex;
+
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__item {
+
+        padding: 1rem;
+
+        &--active {
+            background-color: rgba(
+                0,0,0,0.08);
+            border-left: 3px blue solid;
+        }
+
+        :disabled {
+            opacity: 0.38;
+        }
+
+        &:hover {
+            background-color: rgba(0,0,0,0.04);
+        }
+
+        &:focus {
+            background-color: rgba(0,0,0,0.16);
+        }
+
+    }
+
+    &__link-text {
+        font-size: $side-nav-link-text-font-size;
+    }
+
+}

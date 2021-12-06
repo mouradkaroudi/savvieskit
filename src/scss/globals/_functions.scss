@@ -1,0 +1,10 @@
+@function get-prefix() {
+    @if($prefix) {
+        @return $prefix + "--";
+    }
+    @return "";
+}
+
+@function prefix( $string ) {
+    @return get-prefix() + $string;
+}
