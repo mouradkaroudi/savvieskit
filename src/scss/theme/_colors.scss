@@ -1,0 +1,55 @@
+// Colors
+$sk-wash: rgb(255,255,255) !default;
+$sk-surface: rgb(255,255,255) !default;
+$sk-primary: #f00 !default;
+$sk-secondary: #eee !default;
+
+// On "Colors"
+$sk-on-primary: #000 !default;
+$sk-on-secondary: #000 !default;
+
+
+$sk-colors: (
+    primary: $sk-primary,
+    secondary: $sk-secondary,
+    success: rgb(0,255,0),
+    danger:rgb(255,0,0),
+    warning:rgb(153, 96, 4)
+) !default;
+
+$sk-link-color: $sk-primary !default;
+
+// For solid containers
+// A larger weight indicates that more of a color should be used, 
+// and a smaller weight indicates that more of a color should be used.
+$sk-interaction-weight-hover: 0.08 !default;
+$sk-interaction-weight-focus: 0.16 !default;
+$sk-interaction-weight-active: 0.12 !default;
+
+// Set custom interaction weight for specift colors
+$sk-interaction: () !default;
+
+// On colors generally used as text color
+//
+$sk-on-colors-emphasis:(
+    high: 1,
+    meduim: 0.65,
+    disabled: 0.38
+) !default;
+
+$sk-theme:(
+    "wash": $sk-wash,
+    "surface": $sk-surface,
+    "primary": $sk-primary,
+    "secondary": $sk-secondary,
+    "link": $sk-primary,
+    "border": $sk-border,
+    // On "colors"
+    "on-wash": rgb(0,0,0),
+    "on-surface": rgb(0,0,0),
+    "on-primary": rgb(255,255,255),
+    "on-secondary": rgb(255,255,255),
+    "hover-alpha": 0.08,
+    "focus-alpha": 0.08,
+    "active-alpha": 0.08,
+) !default;

@@ -1,14 +1,12 @@
-$side-nav-item-interaction-base: blue !default;
 
-/** 
-* Interaction states
-*/
-$side-nav-item-interaction-hover: 0.4;
-$side-nav-item-interaction-focus: 0.16;
-$side-nav-item-interaction-active: 0.8;
+$sk-primary: rgb(7, 87, 153);
 
+$sk-side-nav-item-interaction-base: $sk-primary !default;
 
+//$sk-side-nav-item-interaction-hover: 0.4;
+//$sk-side-nav-item-interaction-focus: 0.16;
+//$sk-side-nav-item-interaction-active: 0.8;
 
-$side-nav-link-text-font-size: 1.25rem !default;
-$side-nav-item-active-bg: rgb(15, 15, 231)
+//$sk-side-nav-link-text-font-size: map-get($sk-font-sizes, 3) !default;
+$sk-side-nav-item-active: rgb(15, 15, 231)
 

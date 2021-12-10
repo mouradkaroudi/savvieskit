@@ -1,0 +1,23 @@
+$sk-font-family: 'Inter', sans-serif !default;
+$sk-font-size-base: 1rem !default;
+$sk-base-font-weight: 400 !default;
+
+$sk-font-sizes: (
+    1: 0.875rem,
+    2: $sk-font-size-base,
+    3: $sk-font-size-base * 1.25,
+    4: $sk-font-size-base * 1.5,
+    5: $sk-font-size-base * 1.75,
+    6: $sk-font-size-base * 2,
+    7: $sk-font-size-base * 2.5,
+    8: $sk-font-size-base * 3,
+) !default;
+
+$headings-font-size: (
+    "h1": map-get($sk-font-sizes,7),
+    "h2": map-get($sk-font-sizes,6),
+    "h3": map-get($sk-font-sizes,5),
+    "h4": map-get($sk-font-sizes,4),
+    "h5": map-get($sk-font-sizes,3),
+    "h6": map-get($sk-font-sizes,2),
+) !default;

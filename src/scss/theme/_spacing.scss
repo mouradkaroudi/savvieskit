@@ -1,0 +1,12 @@
+$sk-spacer-base: 1rem !default;
+$sk-spacers: (
+    0: 0,
+    1: $sk-spacer-base * 0.25,
+    2: $sk-spacer-base * 0.5,
+    3: $sk-spacer-base * 1,
+    4: $sk-spacer-base * 1.25,
+    5: $sk-spacer-base * 1.5,
+    6: $sk-spacer-base * 2,
+    7: $sk-spacer-base * 2.5,
+    8: $sk-spacer-base * 3,
+) !default;

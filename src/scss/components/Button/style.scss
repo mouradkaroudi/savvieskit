@@ -1,0 +1,21 @@
+.sk-button-solid {
+
+    background-color: var(--buttonBackground);
+    font-family: var(--font-family);
+
+    &:hover {
+        background-color: var( --buttonHoverBackground, tint-shade($sk-primary));
+    }
+
+    &:focus {
+        
+    }
+
+    &--secondary {
+        --buttonColor: var(--secondary);
+        &:hover {
+            background-color: var( --buttonSecondaryHoverBackground, tint-shade($sk-secondary));
+        }
+    }
+
+}
